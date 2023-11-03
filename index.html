@@ -328,7 +328,30 @@
                 <svg class="modal-x" width="8" height="8">
                     <use href="./images/icons.svg#icon-close-black"></use>
                 </svg>
-            </button>    
+            </button>
+            <form name="order-service-form">
+                <label>
+                    Name
+                    <input type="text" name="usermane">
+                </label>
+                <label>
+                    Phone
+                    <input type="tel" name="nr-phone">
+                </label>
+                <label name="e-mail">
+                    Email
+                    <input type="email" name="email">
+                </label>
+                <label name="comments">
+                    Comment 
+                    <textarea name="comment-spot" rows="4" placeholder="Text input"></textarea>
+                </label>
+                <label name="terms-and-conditions">
+                    <input type="checkbox" name="Privacy-Policy" value="I accept the terms and conditions of the Privacy Policy">
+                    I accept the terms and conditions of the Privacy Policy
+                </label>
+                <button type="submit">Send</button>
+            </form>    
         </div>
     </div>
     <script src="./js/modal.js"></script>
