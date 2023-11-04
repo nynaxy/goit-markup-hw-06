@@ -361,13 +361,17 @@
                 <div class="input-box-one-comm">
                     <label class="modal-form-label" for="user-comment">Comment</label>
                     <textarea name="user-comment" rows="4" placeholder="Text input" id="user-comment" class="text-comment"></textarea>
-                    
-                    
                 </div>
-                <div class="input-box-one">
-                    <label class="modal-form-label"></label>
-                    <input type="checkbox" name="Privacy-Policy" value="I accept the terms and conditions of the Privacy Policy" />
-                    I accept the terms and conditions of the Privacy Policy
+                <div class="input-box-one-conditions">
+                    <input type="checkbox" name="user-privacy" id="user-privacy" value="true" class="private visually-hidden" />
+                    <label class="acceptance" for="user-privacy">I accept the terms and conditions of the
+                        <span class="private-span">
+                            <svg width="10" height="8" class="terms">
+                                <use href="./images/icons.svg#icon-tick"></use>
+                            </svg>
+                        </span>
+                        <a href="" class="private-link">Privacy Policy</a>
+                    </label>
                 </div>
                 <button type="submit" class="action">Send</button>
                 
