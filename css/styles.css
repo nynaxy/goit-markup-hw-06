@@ -315,7 +315,6 @@ body {
     height: 100%;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .connect:hover,
 .connect:focus {
     background-color: var(--color-OCEAN);
@@ -565,6 +564,39 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     transform: translate(-50%, -50%) scale(1);
+    padding: 72px 24px 24px 24px;
+}
+.leave-y {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--color-NAVY_BLUE);
+    margin-bottom: 16px;
+    
+}
+.input-box-one {
+    margin-bottom: 8px;
+
+}
+.modal-form-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:#8e8f99;
+    display: block;
+    margin-bottom: 4px;
+
+}
+.input-box-two {
+
+}
+.modal-form-input {
+
+}
+.modal-form-icon {
+
 }
 .modal-close-button {
     width: 24px;
