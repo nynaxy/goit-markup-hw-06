@@ -464,6 +464,7 @@ body {
     border-radius: 4px;
     color: #ffffff;
     gap: 24px;
+    margin-right: 24px;
 }
 .sub-button {
     min-width: 165px;
@@ -481,6 +482,7 @@ body {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    fill: rgba(255, 255, 255, 1);
 }
 .paper-plane {
     margin-left: 16px;
