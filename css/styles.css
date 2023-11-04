@@ -704,7 +704,7 @@ transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-b
     justify-content: center;
     fill: transparent;
 }
-.private:checked + .terms {
+.private:checked + .acceptance .private-span {
     fill: #F4F4FD;
     background-color: #404bbf;
     border: none;
